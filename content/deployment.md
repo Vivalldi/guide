@@ -155,12 +155,9 @@ Meteor Up, often referred to as "mupx" or "mup", is a third-party open-source to
 
 You can obtain a server running Ubuntu or Debian from many generic hosting providers and Meteor Up can SSH into your server with the keys you provide in the config. You can also [watch this video](https://www.youtube.com/watch?v=WLGdXtZMmiI) for a more complete walkthrough on how to do it.
 
-Meteor Up has multiple projects so select what is best for your project:
-* Original [Meteor Up](https://github.com/arunoda/meteor-up) (not generally recommended any longer)
-* The [`mupx`](https://github.com/arunoda/meteor-up/tree/mupx) branch (best for pre-Meteor 1.4)
-* The [`kadirahq/mup`](https://github.com/kadirahq/meteor-up) fork _(best for Meteor 1.4 or higher)_
+Meteor Up has been consolidated into a singular repo. While many tutorials will reference various versions (`mupx`, `kadirahq/mup`, or even `arunoda/mup`) Meteor Up can now be found at http://meteor-up.com.
 
-> Currently, using Meteor Up with Meteor 1.4 requires `kadirahq/mup` (still in development) and a special docker image with the correct Node version.
+> Note if you are using Meteor 1.3 or older there are a few changes that you will need to make. _This is all documented on the Meteor Up site
 
 For further assistance, consult the documentation for the option you select.
 
